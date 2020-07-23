@@ -4,8 +4,10 @@
     const reviewerTestimonial = document.querySelector("reviewer_testimonial");
     const testimonialButton = document.querySelectorAll(".btn");
 
-    console.log(reviewerName);
-    console.log(reviewerTestimonial);
-    console.log(reviewerImage);
-    console.log("Here i am!")
+    //constructor
+    function Reviewer(name, image, testimonial) {
+        this.name = name
+        this.image = image
+        this.testimonial = testimonial
+    }
 })()
